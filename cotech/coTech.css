@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo-img {
+    width: 25px;
+    height: auto;
+    border: solid .07rem rgb(207, 203, 203);
+    border-radius: 10rem;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin-top: 0.5rem;
+    font-size: x-small;
+}
+
+.nav-bar a {
+    color: white;
+    margin-right: 1.5rem;
+}
+
+.index-details {
+    background-image: url(assets/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 30rem;
+}
+
+#index-mountain {
+    width: 14rem;
+    margin-top: 2.1rem;
+    margin-left: 19rem;
+}
+
+.mobile a {
+    color: #222b3c;
+    text-decoration: none;
+}
+#accordion-la_mountain {
+    width: 4rem;
+}
+
+.middle-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: .5rem;
+}
+
+.middle-bar li {
+    list-style: none;
+    margin-top: 0.5rem;
+    font-size: x-small;
+}
+
+.middle-bar a {
+    color: blue;
+    margin-right: 1.5rem;
+}
+
+#la_mountain {
+    width: 80px;
+    margin-left: .5rem;
+    height: auto;
+}
+
+.history-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(assets/peak.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+#history {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: x-small;
+    text-align: justify;
+    width: 60%;
+}
+#history li {
+    list-style: none;
+}
+
+.carousel {
+    opacity: .70;
+    background-color: #404e6c;
+    padding: 1rem 0;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+
+#thumb-img {
+    width: auto;
+    height: 6rem;
+}
+
+.climb-details {
+    background-image: url(assets/montain_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+#climb {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 1rem;
+    font-size: x-small;
+    text-align: justify;
+    padding: 1rem;
+}
+
+#climb li {
+    list-style: none;
+}
+
+#climb img {
+    margin-left: 5rem;
+    width: 8rem;
+    height: auto;
+}
+
+#text {
+    width: 80%;
+}
+
+.mountains {
+    background-color: #404e6c;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mountains li {
+    background-color: #b0b4be;
+    list-style: none;
+    margin-left: 2rem;
+    padding: .2rem;
+    font-weight:600;
+}
+
+.mountains a {
+    color: #404e6c;
+}
+
+.schedule{
+    margin-top: 3.5rem;
+    margin-left: 4rem;
+    width: 50%;
+    opacity: .8;
+}
+
+.schedule h3 {
+    margin-left: 1.8rem;
+    color: #222b3c;
+    opacity: 1.2;
+}
+
+.schedule li {
+    list-style: none;
+    color: #5b5c5d;
+}
+
+.schedule span{
+    margin-right: 3rem;
+}
+
+.schedule-table {
+    background-color: whitesmoke;
+}
+
+.schedule-table.active  {
+    visibility: visible;
+}
+
+footer {
+    background-color: #404e6c;
+    height: 2.5rem;
+}
+
+.footer-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-details img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-details li {
+    margin-top: .3rem;
+    margin-left: 5rem;
+    color: #5d6f97;
+    list-style: none;
+    font-size: small;
+}

@@ -1,0 +1,287 @@
+@media screen and (min-width: 375px) and (max-width: 600px){
+
+    #logo-img {
+        width: 1.375rem;
+    }
+
+    .nav-bar {
+        display: none;
+        justify-content: space-between;
+    }
+
+    .index-details {
+        height: 16rem;
+    }
+
+    #index-mountain {
+        width: 6rem;
+        margin-top: 2.275rem;
+        margin-left: 10.5rem;
+    }
+
+    .middle-bar {
+        justify-content: space-between;
+    }
+
+    #la_mountain {
+        width: 3rem;
+        margin-left: .3rem;
+    }
+
+    .history-details {
+        height: 18rem;
+    }
+
+    #history {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        font-size: xx-small;
+    }
+
+    #history img {
+        width: 4.5rem;
+    }
+
+    #thumb-img {
+        height: 4rem;
+    }
+
+    .climb-details {
+        height: 18rem;
+    }
+
+    #climb {
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    #climb img {
+        margin-left: 1rem;
+        width: 5rem;
+    }
+
+    .schedule {
+        width: 70%;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        width: 65%;
+        margin-bottom: 1rem;
+    }
+
+    .schedule h3 {
+        font-size: small;
+    }
+
+    .schedule li {
+        font-size: x-small;
+    }
+
+    .footer-details img {
+        width: 40%;
+        height: auto;
+    }
+
+    .footer-details li {
+        margin-left: 1rem;
+        font-size: xx-small;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 549px){
+
+    #index-mountain {
+        width: 8rem;
+        margin-top: 2.275rem;
+        margin-left: 12.5rem;
+    }
+
+    .schedule-table {
+        width: 80%
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 599px){
+
+    #index-mountain {
+        width: 9.5rem;
+        margin-top: .675rem;
+        margin-left: 12.5rem;
+    }
+
+    #thumb-img {
+        height: 6.5rem;
+    }
+
+    .schedule-table {
+        width: 68%
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px){
+
+    .index-details {
+        height: 25rem;
+    }
+
+    #index-mountain {
+        width: 10rem;
+        margin-top: 2.575rem;
+        margin-left: 16.5rem;
+    }
+
+    #thumb-img {
+        height: 6.5rem;
+    }
+
+    .schedule-table {
+        width: 60%
+    }    
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .mobile {
+        display: none;
+    }
+
+    #thumb-img {
+        height: 7rem;
+    }
+
+    .schedule-table {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    
+    #thumb-img {
+        height: 8rem;
+    }
+
+    .schedule-table {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    #index-mountain {
+        width: 17rem;
+        margin-top: 1.9rem;
+        margin-left: 21rem;
+    }
+
+    #history {
+        margin-top: 3rem;
+        margin-left: 8rem;
+        font-size: medium;
+        text-align: justify;
+        width: 70%;
+    }
+
+    #thumb-img {
+        height: 9rem;
+    }
+
+    #climb {
+        font-size: medium;
+    }
+
+    .schedule-table {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .index-details {
+        height: 40rem;
+    }
+
+    #index-mountain {
+        width: 20rem;
+        margin-top: 2rem;
+        margin-left: 23rem;
+    }
+
+    .history-details {
+        height: 40rem;
+    }
+
+    #thumb-img {
+        height: 12rem;
+    }
+
+    .climb-details {
+        height: 40rem;
+    }
+
+    .schedule-table {
+        margin-top: 6rem;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    #index-mountain {
+        width: 22rem;
+        margin-top: 2rem;
+        margin-left: 25rem;
+    }
+
+    #history {
+        margin-top: 4rem;
+        margin-left: 9rem;
+        font-size: large;
+        text-align: justify;
+        width: 70%;
+    }
+
+    .schedule-table {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #index-mountain {
+        width: 24rem;
+        margin-top: 2rem;
+        margin-left: 27rem;
+    }
+
+    .schedule-table {
+        width: 55%;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+
+    #index-mountain {
+        width: 26rem;
+        margin-top: 2rem;
+        margin-left: 29rem;
+    }
+
+    .schedule-table {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    #index-mountain {
+        width: 28rem;
+        margin-top: 2rem;
+        margin-left: 31rem;
+    }
+
+    .schedule-table {
+        width: 50%;
+    }
+}
